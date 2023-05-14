@@ -1,0 +1,38 @@
+
+PROBLEM
+//school has following rules for grading system:
+Below 25 - F
+25 to 44 - E
+45 to 49 - D
+50 to 59 - C
+60 to 79 - B
+80 to 100 - A
+Ask user to enter marks and print the corresponding grade.//
+
+
+
+SOLUTION
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    
+  int age;
+  
+  cin>> age;
+  if(age < 18){
+      cout<<"nA";
+  }
+  else if(age <=54){
+      cout<<"Eligible For job";
+  }
+  else if(age <= 57){
+      cout<< "eligible for job but retirement soon";
+  }
+  
+  else{
+      cout<<"retirement time";
+  }
+  return 0
+}
