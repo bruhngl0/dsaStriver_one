@@ -141,6 +141,21 @@
 
     output = 861
 
+
+
+
+// 5. Sort the inventors by years lived
+
+
+  const lol = inventors.sort((a,b)=> {
+  let one =  a.passed - a.year;
+  let two =  b.passed - b.year;
+
+ return (one>two ? 1 : -1)
+})
+
+console.log(lol)
+
     
 
     // 7. sort Exercise
